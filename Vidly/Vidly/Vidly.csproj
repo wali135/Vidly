@@ -195,6 +195,46 @@
     <Compile Include="Migrations\201702051702485_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201702051702485_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702051735455_MembershipType.cs" />
+    <Compile Include="Migrations\201702051735455_MembershipType.Designer.cs">
+      <DependentUpon>201702051735455_MembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051741198_MembershipType1.cs" />
+    <Compile Include="Migrations\201702051741198_MembershipType1.Designer.cs">
+      <DependentUpon>201702051741198_MembershipType1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051742495_MembershipType1Name.cs" />
+    <Compile Include="Migrations\201702051742495_MembershipType1Name.Designer.cs">
+      <DependentUpon>201702051742495_MembershipType1Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051753274_UpdatingMembershipType.cs" />
+    <Compile Include="Migrations\201702051753274_UpdatingMembershipType.Designer.cs">
+      <DependentUpon>201702051753274_UpdatingMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051800026_AddingBirthdayToCustomer.cs" />
+    <Compile Include="Migrations\201702051800026_AddingBirthdayToCustomer.Designer.cs">
+      <DependentUpon>201702051800026_AddingBirthdayToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051818318_NullableBirthday.cs" />
+    <Compile Include="Migrations\201702051818318_NullableBirthday.Designer.cs">
+      <DependentUpon>201702051818318_NullableBirthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051827331_BirthdayspellingMistake.cs" />
+    <Compile Include="Migrations\201702051827331_BirthdayspellingMistake.Designer.cs">
+      <DependentUpon>201702051827331_BirthdayspellingMistake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051847380_AddingMovietoDatabase.cs" />
+    <Compile Include="Migrations\201702051847380_AddingMovietoDatabase.Designer.cs">
+      <DependentUpon>201702051847380_AddingMovietoDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051902565_AddedStockanddateadded.cs" />
+    <Compile Include="Migrations\201702051902565_AddedStockanddateadded.Designer.cs">
+      <DependentUpon>201702051902565_AddedStockanddateadded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702051919571_AddedGenresTabl.cs" />
+    <Compile Include="Migrations\201702051919571_AddedGenresTabl.Designer.cs">
+      <DependentUpon>201702051919571_AddedGenresTabl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -294,6 +334,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702051702485_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201702051702485_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051735455_MembershipType.resx">
+      <DependentUpon>201702051735455_MembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051741198_MembershipType1.resx">
+      <DependentUpon>201702051741198_MembershipType1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051742495_MembershipType1Name.resx">
+      <DependentUpon>201702051742495_MembershipType1Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051753274_UpdatingMembershipType.resx">
+      <DependentUpon>201702051753274_UpdatingMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051800026_AddingBirthdayToCustomer.resx">
+      <DependentUpon>201702051800026_AddingBirthdayToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051818318_NullableBirthday.resx">
+      <DependentUpon>201702051818318_NullableBirthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051827331_BirthdayspellingMistake.resx">
+      <DependentUpon>201702051827331_BirthdayspellingMistake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051847380_AddingMovietoDatabase.resx">
+      <DependentUpon>201702051847380_AddingMovietoDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051902565_AddedStockanddateadded.resx">
+      <DependentUpon>201702051902565_AddedStockanddateadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702051919571_AddedGenresTabl.resx">
+      <DependentUpon>201702051919571_AddedGenresTabl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
