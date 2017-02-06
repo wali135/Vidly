@@ -235,9 +235,18 @@
     <Compile Include="Migrations\201702051919571_AddedGenresTabl.Designer.cs">
       <DependentUpon>201702051919571_AddedGenresTabl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702062111235_AddedGenreToseprateModel.cs" />
+    <Compile Include="Migrations\201702062111235_AddedGenreToseprateModel.Designer.cs">
+      <DependentUpon>201702062111235_AddedGenreToseprateModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702062114278_UpdatingGenre.cs" />
+    <Compile Include="Migrations\201702062114278_UpdatingGenre.Designer.cs">
+      <DependentUpon>201702062114278_UpdatingGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -245,6 +254,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -367,6 +377,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702051919571_AddedGenresTabl.resx">
       <DependentUpon>201702051919571_AddedGenresTabl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702062111235_AddedGenreToseprateModel.resx">
+      <DependentUpon>201702062111235_AddedGenreToseprateModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702062114278_UpdatingGenre.resx">
+      <DependentUpon>201702062114278_UpdatingGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
