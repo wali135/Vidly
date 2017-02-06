@@ -5,6 +5,10 @@
 }
 
 <h2>Customer</h2>
+<div class="btn btn-primary">@Html.ActionLink("New Customer", "New","Customers", null , null)</div>
+<br/>
+<br/>
+
 @if (!Model.Any())
 {
     <p>We don't have any Customers Yet</p>
@@ -20,7 +24,7 @@ else
         @foreach (var customer in Model)
         {
             <tr>
-                <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+                <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
                 <td>@customer.MembershipType.Name</td>
             </tr>
         }
