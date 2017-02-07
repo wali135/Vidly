@@ -4,18 +4,18 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Your Movies Portal</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
-    <meta name="description" content="The description of my page" />
+    <meta name="description" content="Vidly is a Movie renting web app" />
 </head>
 <body>
     @Html.Partial("_NavBar")
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
+        <footer role="contentinfo">
             <p>&copy; @DateTime.Now.Year - Vidly</p>
         </footer>
     </div>
